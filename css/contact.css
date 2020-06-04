@@ -1,0 +1,67 @@
+.contactHeaderImage {
+    background-image: url("../images/contactUsHeader.jpg");
+}
+
+.contact__header-text {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.contact__header-text h1 {
+    font-size: 60px;
+    letter-spacing: 6px;
+    border-bottom: 2px solid white;
+    padding-bottom: 3px;
+}
+
+@media all and (max-width: 575px) {
+    .contact__header-text h1 {
+        font-size: 30px;
+    }
+}
+
+@media all and (min-width: 576px) {
+    .contact__header-text h1 {
+        font-size: 35px;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .contact__header-text h1 {
+        font-size: 50px;
+    }
+}
+
+@media all and (min-width: 992px) {
+    .contact__header-text h1 {
+        font-size: 55px;
+    }
+}
+
+.contactForm {
+    min-height: 75vh;
+    padding-bottom: 50px;
+}
+
+.contactForm .row {
+    min-height: 75vh;
+    padding-top: 5vh;
+}
+
+.contactForm .row .col {
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+.contactForm .row .col .googleMap {
+    width: 100%;
+    height: 100%;
+}
+
+.contactArea {
+    padding-bottom: 30px;
+}

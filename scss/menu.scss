@@ -1,0 +1,37 @@
+.contactHeaderImage{
+    background-image: url("../images/menuHeader.jpg");
+}
+.mainMenu{
+    background-color: white;
+    .row{
+        .col{
+            padding-bottom: 50px;
+            .nav-tabs{
+                display: flex;
+                justify-content: center;
+            }
+            .tab-content{
+                min-height: 50vh;
+              background-color: white;
+              padding: 3%;
+              .foodArea{
+                  .foodElement{
+                      .foodName{
+                            display: flex;
+                            justify-content: space-between;
+                      }
+                      .foodDescription{
+                          font-size: 15px;
+
+                      }
+                      .foodDescriptionEng{
+                        font-size: 14px;
+                        color: green;
+                        font-style: italic;
+                      }
+                  }
+              }
+            }
+        }
+    }
+}

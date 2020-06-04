@@ -1,0 +1,112 @@
+.contactHeaderImage {
+    background-image: url("../images/companies.jpg");
+}
+
+main {
+    padding-bottom: 40px;
+}
+
+main .row {
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+main .row .col {
+    padding: 15px;
+}
+
+main .row .col img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+}
+
+@media all and (max-width: 575px) {
+    main .row .col p {
+        font-size: 12px;
+    }
+}
+
+@media all and (min-width: 576px) {
+    main .row .col p {
+        font-size: 13px;
+    }
+}
+
+@media all and (min-width: 768px) {
+    main .row .col p {
+        font-size: 14px;
+    }
+}
+
+@media all and (min-width: 992px) {
+    main .row .col p {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 575px) {
+    main .row .col h1 {
+        font-size: 20px;
+    }
+}
+
+@media all and (min-width: 576px) {
+    main .row .col h1 {
+        font-size: 25px;
+    }
+}
+
+@media all and (min-width: 768px) {
+    main .row .col h1 {
+        font-size: 30px;
+    }
+}
+
+@media all and (min-width: 992px) {
+    main .row .col h1 {
+        font-size: 45px;
+    }
+}
+
+@media all and (max-width: 575px) {
+    main .row .col h3 {
+        font-size: 15px;
+    }
+}
+
+@media all and (min-width: 576px) {
+    main .row .col h3 {
+        font-size: 20px;
+    }
+}
+
+@media all and (min-width: 768px) {
+    main .row .col h3 {
+        font-size: 25px;
+    }
+}
+
+@media all and (min-width: 992px) {
+    main .row .col h3 {
+        font-size: 35px;
+    }
+}
+
+main .row .col .companiesPoromotions h1 {
+    padding-bottom: 10px;
+}
+
+main .row .col .companiesPoromotions div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+main .row .col .companiesPoromotions div svg {
+    font-size: 2em;
+}
+
+main .row .col .companiesPoromotions div span {
+    margin-left: 20px;
+}

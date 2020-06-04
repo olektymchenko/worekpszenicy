@@ -1,0 +1,93 @@
+.footer{
+    background-image: url("../images/footer.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:white;
+    width: 100%;
+    min-height: 40vh;
+    padding-top: 20px;
+    .container{
+        min-height: 40vh;
+        width: 100%;
+        .row{
+            min-height: 40vh;
+            width: 100%;
+            @media all and (max-width:575px){
+                justify-content: flex-start;
+              }
+              @media all and (min-width: 576px) { 
+                justify-content: flex-start;
+              }
+              @media all and (min-width: 768px){
+                justify-content: space-between;
+              }
+              @media all and (min-width: 992px){
+                justify-content: space-between;
+              }
+            .footer__text{
+                width: 50%;
+                hr{
+                    height: 3px;
+                    width: 100px;
+                    background-color: white;
+                    border-radius: 3px;
+                    margin-left: 0;
+                }
+                @media all and (max-width:575px){
+                    align-self: flex-start;
+                    width: 70%;
+                  }
+                  @media all and (min-width: 576px) { 
+                    align-self: flex-start;
+                    width: 70%;
+                  }
+                  @media all and (min-width: 768px){
+                    align-self: flex-end;
+                    width: 60%;
+                  }
+                  @media all and (min-width: 992px){
+                    align-self: flex-end;
+                    width: 50%;
+                  }
+                p{
+                    @media all and (max-width:575px){
+                        font-size: 13px;
+                      }
+                      @media all and (min-width: 576px) { 
+                        font-size: 14px;
+                      }
+                      @media all and (min-width: 768px){
+                        font-size: 15px;
+                      }
+                      @media all and (min-width: 992px){
+                        font-size: 16px;
+                      }
+                }
+            }
+            h3{
+                font-weight: bold;
+                // padding from top(images)
+              
+                //Changing h3 font
+                @media all and (max-width:575px){
+                    font-size: 18px;
+                  }
+                  @media all and (min-width: 576px) { 
+                    font-size: 20px;
+                  }
+                  @media all and (min-width: 768px){
+                    font-size: 21px;
+                  }
+                  @media all and (min-width: 992px){
+                    font-size: 22px;
+                  }
+            }
+            .contactList{
+                i{
+                    font-size: 2em;
+                }
+            }
+        }
+    }
+}

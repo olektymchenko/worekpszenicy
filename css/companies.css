@@ -11,6 +11,30 @@ main .row {
     padding-bottom: 30px;
 }
 
+@media all and (max-width: 575px) {
+    main .row .imageToOrder {
+        order: 1;
+    }
+}
+
+@media all and (min-width: 576px) {
+    main .row .imageToOrder {
+        order: 1;
+    }
+}
+
+@media all and (min-width: 768px) {
+    main .row .imageToOrder {
+        order: 0;
+    }
+}
+
+@media all and (min-width: 992px) {
+    main .row .imageToOrder {
+        order: 0;
+    }
+}
+
 main .row .col {
     padding: 15px;
 }

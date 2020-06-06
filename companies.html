@@ -17,9 +17,34 @@
 </head>
 
 <body>
+    <div class="preloader d-flex justify-content-center align-items-center" id="preloader">
+        <div class="spinner-grow text-primary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
     <header class="contactHeaderImage">
         <!-- Line with cosial icons -->
         <div class="cosialIcons bg-dark">
+            <div class="dropdown">
+                <button class="btn btn-sm dropdown-toggle d-flex" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="iconText">Polski</div>
+                    <div class="flagIcon"><img src="./images/flags/poland-flag-small.png" alt="Polish language"></div>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dropdown-menuChange">
+                    <a class="dropdown-item d-flex justify-content-between" href="#" id="EngLanguage">
+                        <div class="inButtonText">English</div>
+                        <div class="flagIcon"><img src="./images/flags/united-kingdom-flag-small.png"
+                                alt="Polish language">
+                        </div>
+                    </a>
+                    <a class="dropdown-item d-flex justify-content-between" href="#" id="RusLanguage">
+                        <div class="inButtonText">Русский</div>
+                        <div class="flagIcon"><img src="./images/flags/russia-flag-small.png" alt="Russian language">
+                        </div>
+                    </a>
+                </div>
+            </div>
             <div class="icon">
                 <a href="https://www.facebook.com/RestauracjaWorekPszenicy"> <i class="fab fa-facebook-f"></i></a>
             </div>
@@ -72,7 +97,7 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col col-12 col-sm-12 col-md-6">
+                <div class="col col-12 col-sm-12 col-md-6  wow fadeInUp">
                     <h1>Imprezy firmowe</h1>
                     <h3>W dawnej pracowni Leonarda da Vinci</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat ipsa qui explicabo quae eius
@@ -85,15 +110,15 @@
                         neque adipisci eum quas excepturi optio, ut vel voluptate nesciunt nemo officia deserunt, in
                         reprehenderit. Ducimus, amet.</p>
                 </div>
-                <div class="col col-12 col-sm-12 col-md-6">
+                <div class="col col-12 col-sm-12 col-md-6  wow fadeInUp">
                     <img src="./images/drinks.jpg" alt="Grupa ludzi w restauracji">
                 </div>
             </div>
             <div class="row d-flex align-items-center">
-                <div class="col col-12 col-sm-12 col-md-6 imageToOrder">
+                <div class="col col-12 col-sm-12 col-md-6 imageToOrder  wow fadeInUp">
                     <img src="./images/grouppeople.jpg" alt="Grupa ludzi w restauracji">
                 </div>
-                <div class="col col-12 col-sm-12 col-md-6">
+                <div class="col col-12 col-sm-12 col-md-6  wow fadeInUp">
                     <div>
                         <h1>Specjalna firmowa oferta</h1>
                     </div>
@@ -111,7 +136,7 @@
         </div>
     </main>
     <footer>
-        <div class="footer">
+        <div class="footer  wow fadeInUp">
             <div class="container">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-12 col-sm-12 col-md-6">
@@ -159,6 +184,7 @@
     </script>
     <script defer src="js/all.min.js"></script>
     <!--load all styles -->
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>

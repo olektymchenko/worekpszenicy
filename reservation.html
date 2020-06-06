@@ -17,9 +17,34 @@
 </head>
 
 <body>
+    <div class="preloader d-flex justify-content-center align-items-center" id="preloader">
+        <div class="spinner-grow text-primary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
     <header class="contactHeaderImage">
         <!-- Line with cosial icons -->
         <div class="cosialIcons bg-dark">
+            <div class="dropdown">
+                <button class="btn btn-sm dropdown-toggle d-flex" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="iconText">Polski</div>
+                    <div class="flagIcon"><img src="./images/flags/poland-flag-small.png" alt="Polish language"></div>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dropdown-menuChange">
+                    <a class="dropdown-item d-flex justify-content-between" href="#" id="EngLanguage">
+                        <div class="inButtonText">English</div>
+                        <div class="flagIcon"><img src="./images/flags/united-kingdom-flag-small.png"
+                                alt="Polish language">
+                        </div>
+                    </a>
+                    <a class="dropdown-item d-flex justify-content-between" href="#" id="RusLanguage">
+                        <div class="inButtonText">Русский</div>
+                        <div class="flagIcon"><img src="./images/flags/russia-flag-small.png" alt="Russian language">
+                        </div>
+                    </a>
+                </div>
+            </div>
             <div class="icon">
                 <a href="https://www.facebook.com/RestauracjaWorekPszenicy"> <i class="fab fa-facebook-f"></i></a>
             </div>
@@ -49,7 +74,7 @@
                         <a class="nav-link" href="menu.html">MENU</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">GALERIA</a>
+                        <a class="nav-link" href="gallery.html">GALERIA</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="reservation.html">REZERWACJA</a>
@@ -70,7 +95,7 @@
         </div>
     </header>
     <main>
-        <div class="container contactArea">
+        <div class="container contactArea  wow fadeInUp">
             <form action="https://formspree.io/xzbjrabr" method="POST">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-6 ">
@@ -129,7 +154,7 @@
         </div>
     </main>
     <footer>
-        <div class="footer">
+        <div class="footer  wow fadeInUp">
             <div class="container">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-12 col-sm-12 col-md-6">
@@ -178,6 +203,7 @@
     </script>
     <script defer src="js/all.min.js"></script>
     <!--load all styles -->
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>

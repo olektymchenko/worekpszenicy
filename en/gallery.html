@@ -4,19 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galeria</title>
-    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/contact.css">
-    <link rel="stylesheet" href="css/gallery.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/photoswipe.css">
-    <link rel="stylesheet" href="css/default-skin/default-skin.css">
-
-    <link href="css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/gallery.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/photoswipe.css">
+    <link rel="stylesheet" href="../css/default-skin/default-skin.css">
+    <link href="../css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -31,19 +30,19 @@
             <div class="dropdown">
                 <button class="btn btn-sm dropdown-toggle d-flex" type="button" id="dropdownMenuButton"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <div class="iconText">Polski</div>
-                    <div class="flagIcon"><img src="./images/flags/poland-flag-small.png" alt="Polish language"></div>
+                    <div class="iconText">English</div>
+                    <div class="flagIcon"><img src="../images/flags/united-kingdom-flag-small.png"
+                            alt="English language"></div>
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dropdown-menuChange">
-                    <a class="dropdown-item d-flex justify-content-between" href="#" id="EngLanguage">
-                        <div class="inButtonText">English</div>
-                        <div class="flagIcon"><img src="./images/flags/united-kingdom-flag-small.png"
-                                alt="Polish language">
+                    <a class="dropdown-item d-flex justify-content-between" href="#" id="PolLanguage">
+                        <div class="inButtonText">Polski</div>
+                        <div class="flagIcon"><img src="../images/flags/poland-flag-small.png" alt="Polish language">
                         </div>
                     </a>
                     <a class="dropdown-item d-flex justify-content-between" href="#" id="RusLanguage">
                         <div class="inButtonText">Русский</div>
-                        <div class="flagIcon"><img src="./images/flags/russia-flag-small.png" alt="Russian language">
+                        <div class="flagIcon"><img src="../images/flags/russia-flag-small.png" alt="Russian language">
                         </div>
                     </a>
                 </div>
@@ -61,7 +60,7 @@
         <!-- NavBar -->
         <nav class="navbar navbar-expand-lg navbar-light navbar-editing">
             <a class="navbar-brand" href="index.html">
-                <img src="./images/logo1.svg" alt="WorekPszenicyLogo" width="150px" height="80px id='site-logo'">
+                <img src="../images/logo1.svg" alt="WorekPszenicyLogo" width="150px" height="80px id='site-logo'">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,29 +70,31 @@
                 <div class="phoneNumber"><a href="tel:+48 123 456 789">+48 123-456-789</a></div>
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="about.html">O NAS</a>
+                        <a class="nav-link" href="about.html">ABOUT US</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="menu.html">MENU</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="gallery.html">GALERIA</a>
+                        <a class="nav-link" href="gallery.html">GALLERY</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="reservation.html">REZERWACJA</a>
+                        <a class="nav-link" href="reservation.html">RESERVATION</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="companies.html">DLA FIRM</a>
+                        <a class="nav-link" href="companies.html">FOR COMPANIES</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="contact.html">KONTAKT</a>
+                        <a class="nav-link" href="contact.html">CONTACT</a>
                     </li>
                 </ul>
             </div>
         </nav>
+
+
         </div>
         <div class="contact__header-text">
-            <h1>GALERIA</h1>
+            <h1>GALLERY</h1>
         </div>
     </header>
     <main>
@@ -160,133 +161,133 @@ It's a separate element, as animating opacity is faster than rgba(). -->
                 </div>
             </div>
         </div>
-        <div class="my-gallery  wow fadeInUp" itemscope itemtype="http://schema.org/ImageGallery">
+        <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
             <div class="container">
                 <div class="row">
                     <div class="col-12 col-sm-12 col-md-4 col-lg-3">
                         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                            <a href="../app/images/gallery/image1Normal.jpg" itemprop="contentUrl" data-size="600x400">
-                                <img src="./images/gallery/image1Small.jpg" itemprop="thumbnail"
+                            <a href="../images/gallery/image1Normal.jpg" itemprop="contentUrl" data-size="600x400">
+                                <img src="../images/gallery/image1Small.jpg" itemprop="thumbnail"
                                     alt="Image description" />
                             </a>
                         </figure>
                     </div>
                     <div class="col-12 col-sm-12 col-md-4 col-lg-3">
                         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                            <a href="./images/gallery/image2Normall.jpg" itemprop="contentUrl" data-size="600x400">
-                                <img src="./images/gallery/image2Small.jpg" itemprop="thumbnail"
+                            <a href="../images/gallery/image2Normall.jpg" itemprop="contentUrl" data-size="600x400">
+                                <img src="../images/gallery/image2Small.jpg" itemprop="thumbnail"
                                     alt="Image description" />
                             </a>
                         </figure>
                     </div>
                     <div class="col-12 col-sm-12 col-md-4 col-lg-3">
                         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                            <a href="./images/gallery/image3Normall.jpg" itemprop="contentUrl" data-size="600x400">
-                                <img src="./images/gallery/image3Small.jpg" itemprop="thumbnail"
+                            <a href="../images/gallery/image3Normall.jpg" itemprop="contentUrl" data-size="600x400">
+                                <img src="../images/gallery/image3Small.jpg" itemprop="thumbnail"
                                     alt="Image description" />
                             </a>
                         </figure>
                     </div>
                     <div class="col-12 col-sm-12 col-md-4 col-lg-3">
                         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                            <a href="./images/gallery/image4Normall.jpg" itemprop="contentUrl" data-size="600x400">
-                                <img src="./images/gallery/image4Small.jpg" itemprop="thumbnail"
+                            <a href="../images/gallery/image4Normall.jpg" itemprop="contentUrl" data-size="600x400">
+                                <img src="../images/gallery/image4Small.jpg" itemprop="thumbnail"
                                     alt="Image description" />
                             </a>
                         </figure>
                     </div>
                     <div class="col-12 col-sm-12 col-md-4 col-lg-3">
                         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                            <a href="./images/gallery/image5Normall.jpg" itemprop="contentUrl" data-size="600x400">
-                                <img src="./images/gallery/image5Small.jpg" itemprop="thumbnail"
+                            <a href="../images/gallery/image5Normall.jpg" itemprop="contentUrl" data-size="600x400">
+                                <img src="../images/gallery/image5Small.jpg" itemprop="thumbnail"
                                     alt="Image description" />
                             </a>
                         </figure>
                     </div>
                     <div class="col-12 col-sm-12 col-md-4 col-lg-3">
                         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                            <a href="./images/gallery/image6Normall.jpg" itemprop="contentUrl" data-size="600x400">
-                                <img src="./images/gallery/image6Small.jpg" itemprop="thumbnail"
+                            <a href="../images/gallery/image6Normall.jpg" itemprop="contentUrl" data-size="600x400">
+                                <img src="../images/gallery/image6Small.jpg" itemprop="thumbnail"
                                     alt="Image description" />
                             </a>
                         </figure>
                     </div>
                     <div class="col-12 col-sm-12 col-md-4 col-lg-3">
                         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                            <a href="./images/gallery/image7Normall.jpg" itemprop="contentUrl" data-size="600x400">
-                                <img src="./images/gallery/image7Small.jpg" itemprop="thumbnail"
+                            <a href="../images/gallery/image7Normall.jpg" itemprop="contentUrl" data-size="600x400">
+                                <img src="../images/gallery/image7Small.jpg" itemprop="thumbnail"
                                     alt="Image description" />
                             </a>
                         </figure>
                     </div>
                     <div class="col-12 col-sm-12 col-md-4 col-lg-3">
                         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                            <a href="./images/gallery/image8Normall.jpg" itemprop="contentUrl" data-size="600x400">
-                                <img src="./images/gallery/image8Small.jpg" itemprop="thumbnail"
+                            <a href="../images/gallery/image8Normall.jpg" itemprop="contentUrl" data-size="600x400">
+                                <img src="../images/gallery/image8Small.jpg" itemprop="thumbnail"
                                     alt="Image description" />
                             </a>
                         </figure>
                     </div>
                     <div class="col-12 col-sm-12 col-md-4 col-lg-3">
                         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                            <a href="./images/gallery/image9Normall.jpg" itemprop="contentUrl" data-size="600x400">
-                                <img src="./images/gallery/image9Small.jpg" itemprop="thumbnail"
+                            <a href="../images/gallery/image9Normall.jpg" itemprop="contentUrl" data-size="600x400">
+                                <img src="../images/gallery/image9Small.jpg" itemprop="thumbnail"
                                     alt="Image description" />
                             </a>
                         </figure>
                     </div>
                     <div class="col-12 col-sm-12 col-md-4 col-lg-3">
                         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                            <a href="./images/gallery/image10Normall.jpg" itemprop="contentUrl" data-size="600x400">
-                                <img src="./images/gallery/image10Small.jpg" itemprop="thumbnail"
+                            <a href="../images/gallery/image10Normall.jpg" itemprop="contentUrl" data-size="600x400">
+                                <img src="../images/gallery/image10Small.jpg" itemprop="thumbnail"
                                     alt="Image description" />
                             </a>
                         </figure>
                     </div>
                     <div class="col-12 col-sm-12 col-md-4 col-lg-3">
                         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                            <a href="./images/gallery/image1Normall.jpg" itemprop="contentUrl" data-size="600x400">
-                                <img src="./images/gallery/image1Small.jpg" itemprop="thumbnail"
+                            <a href="../images/gallery/image1Normall.jpg" itemprop="contentUrl" data-size="600x400">
+                                <img src="../images/gallery/image1Small.jpg" itemprop="thumbnail"
                                     alt="Image description" />
                             </a>
                         </figure>
                     </div>
                     <div class="col-12 col-sm-12 col-md-4 col-lg-3">
                         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                            <a href="./images/gallery/image12Normall.jpg" itemprop="contentUrl" data-size="600x400">
-                                <img src="./images/gallery/image12Small.jpg" itemprop="thumbnail"
+                            <a href="../images/gallery/image12Normall.jpg" itemprop="contentUrl" data-size="600x400">
+                                <img src="../images/gallery/image12Small.jpg" itemprop="thumbnail"
                                     alt="Image description" />
                             </a>
                         </figure>
                     </div>
                     <div class="col-12 col-sm-12 col-md-4 col-lg-3">
                         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                            <a href="../app/images/gallery/image1Normal.jpg" itemprop="contentUrl" data-size="600x400">
-                                <img src="./images/gallery/image1Small.jpg" itemprop="thumbnail"
+                            <a href="../images/gallery/image1Normal.jpg" itemprop="contentUrl" data-size="600x400">
+                                <img src="../images/gallery/image1Small.jpg" itemprop="thumbnail"
                                     alt="Image description" />
                             </a>
                         </figure>
                     </div>
                     <div class="col-12 col-sm-12 col-md-4 col-lg-3">
                         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                            <a href="./images/gallery/image2Normall.jpg" itemprop="contentUrl" data-size="600x400">
-                                <img src="./images/gallery/image2Small.jpg" itemprop="thumbnail"
+                            <a href="../images/gallery/image2Normall.jpg" itemprop="contentUrl" data-size="600x400">
+                                <img src="../images/gallery/image2Small.jpg" itemprop="thumbnail"
                                     alt="Image description" />
                             </a>
                         </figure>
                     </div>
                     <div class="col-12 col-sm-12 col-md-4 col-lg-3">
                         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                            <a href="./images/gallery/image3Normall.jpg" itemprop="contentUrl" data-size="600x400">
-                                <img src="./images/gallery/image3Small.jpg" itemprop="thumbnail"
+                            <a href="../images/gallery/image3Normall.jpg" itemprop="contentUrl" data-size="600x400">
+                                <img src="../images/gallery/image3Small.jpg" itemprop="thumbnail"
                                     alt="Image description" />
                             </a>
                         </figure>
                     </div>
                     <div class="col-12 col-sm-12 col-md-4 col-lg-3">
                         <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                            <a href="./images/gallery/image4Normall.jpg" itemprop="contentUrl" data-size="600x400">
-                                <img src="./images/gallery/image4Small.jpg" itemprop="thumbnail"
+                            <a href="../images/gallery/image4Normall.jpg" itemprop="contentUrl" data-size="600x400">
+                                <img src="../images/gallery/image4Small.jpg" itemprop="thumbnail"
                                     alt="Image description" />
                             </a>
                         </figure>
@@ -297,7 +298,7 @@ It's a separate element, as animating opacity is faster than rgba(). -->
         </div>
     </main>
     <footer>
-        <div class="footer  wow fadeInUp">
+        <div class="footer">
             <div class="container">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-12 col-sm-12 col-md-6">
@@ -334,17 +335,17 @@ It's a separate element, as animating opacity is faster than rgba(). -->
             </div>
         </div>
     </footer>
-    <script src="jQuery/jquery-3.4.1.min.js"></script>
-    <script src="Popper/popper.min.js"></script>
-    <script src="Bootstrap/js/bootstrap.min.js"></script>
-    <script src="js/header.js"></script>
-    <script src="js/wow.min.js"></script>
+    <script src="../jQuery/jquery-3.4.1.min.js"></script>
+    <script src="../Popper/popper.min.js"></script>
+    <script src="../Bootstrap/js/bootstrap.min.js"></script>
+    <script src="../js/header.js"></script>
+    <script src="../js/wow.min.js"></script>
     <script>
         new WOW().init();
     </script>
-    <script defer src="js/all.min.js"></script>
-    <script src="js/photoswipe.min.js"></script>
-    <script src="js/photoswipe-ui-default.min.js"></script>
+    <script defer src="../js/all.min.js"></script>
+    <script src="../js/photoswipe.min.js"></script>
+    <script src="../js/photoswipe-ui-default.min.js"></script>
     <script>
         var initPhotoSwipeFromDOM = function (gallerySelector) {
 
@@ -553,7 +554,7 @@ It's a separate element, as animating opacity is faster than rgba(). -->
         initPhotoSwipeFromDOM('.my-gallery');
     </script>
     <!--load all styles -->
-    <script src="js/scripts.js"></script>
+    <script src="../js/scripts.js"></script>
 </body>
 
 </html>

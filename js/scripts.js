@@ -1,9 +1,11 @@
-
-$(document).ready(function () {
+$(window).ready(function () {
     let preloader = $("#preloader");
     setTimeout(function () {
         preloader.remove();
     });
+
+})
+$(document).ready(function () {
 
     let PolLang = $("#PolLanguage");
     let EngLang = $("#EngLanguage");

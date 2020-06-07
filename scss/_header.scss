@@ -33,7 +33,7 @@ header{
           color:black;
         }
         .flagIcon{
-          padding-left: 20%;
+          margin-left: 20%;
           img{
             width: 25px;
             height: 15px;
@@ -113,16 +113,16 @@ header{
       height: 25%;
       width: 25%;
       @media all and (max-width:575px){
-        height: 50%;
-        width: 50%;
+        height: 60%;
+        width: 60%;
       }
       @media all and (min-width: 576px) { 
-        height: 50%;
-        width: 50%;
+        height: 60%;
+        width: 60%;
       }
       @media all and (min-width: 768px){
-        height: 30%;
-        width: 30%;
+        height: 45%;
+        width: 45%;
       }
       @media all and (min-width: 992px){
       height: 25%;

@@ -1,1 +1,3 @@
-Redirect 301 www.olektymchenko.eu http://olektymchenko.eu/ 
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^restauracjaworekpszenicy\.pl$ [NC]
+RewriteRule ^(.*)$ https://www.restauracjaworekpszenicy.pl/$1 [R=301,L]

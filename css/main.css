@@ -438,7 +438,7 @@ main .carouselElement {
 }
 
 .footer .container .row .footer__text {
-    width: 50%;
+    width: 63%;
 }
 
 .footer .container .row .footer__text hr {
@@ -452,28 +452,28 @@ main .carouselElement {
 @media all and (max-width: 575px) {
     .footer .container .row .footer__text {
         align-self: flex-start;
-        width: 80%;
+        width: 100%;
     }
 }
 
 @media all and (min-width: 576px) {
     .footer .container .row .footer__text {
         align-self: flex-start;
-        width: 80%;
+        width: 100%;
     }
 }
 
 @media all and (min-width: 768px) {
     .footer .container .row .footer__text {
         align-self: flex-end;
-        width: 80%;
+        width: 100%;
     }
 }
 
 @media all and (min-width: 992px) {
     .footer .container .row .footer__text {
         align-self: flex-end;
-        width: 50%;
+        width: 63%;
     }
 }
 
@@ -533,6 +533,31 @@ main .carouselElement {
     font-size: 2em;
 }
 
+.footer .container .row .contactList a {
+    color: white;
+    text-decoration: none;
+}
+
+.author {
+    padding: 5px;
+}
+
+.author span {
+    color: white;
+}
+
+.author svg {
+    color: red;
+    font-size: 1.2em;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.author a {
+    text-decoration: none;
+    color: white;
+}
+
 * {
     font-family: "Open Sans", sans-serif !important;
 }
@@ -543,6 +568,10 @@ html {
 
 body {
     background-color: #f2f4f5 !important;
+}
+
+p {
+    font-weight: 700;
 }
 
 .preloader {

@@ -1,4 +1,4 @@
-header{
+header {
   background-image: url("../images/image1.jpg");
   background-size: cover;
   background-position: top;
@@ -6,139 +6,136 @@ header{
   min-height: 100vh;
 
   // Social icon element
-  .cosialIcons{
+  .cosialIcons {
     width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    color:white;
-    .dropdown{
-        margin-right: 2%;
-        @media all and (max-width:575px){
+    color: white;
+    .dropdown {
+      margin-right: 2%;
+      @media all and (max-width: 575px) {
         margin-right: 7%;
+      }
+      @media all and (min-width: 576px) {
+        margin-right: 7%;
+      }
+      @media all and (min-width: 768px) {
+        margin-right: 4%;
+      }
+      @media all and (min-width: 992px) {
+        margin-right: 2%;
+      }
+      .iconText {
+        color: white;
+      }
+      .inButtonText {
+        color: black;
+      }
+      .flagIcon {
+        margin-left: 20%;
+        img {
+          width: 25px;
+          height: 15px;
         }
-        @media all and (min-width: 576px) { 
-          margin-right: 7%;
-        }
-        @media all and (min-width: 768px){
-          margin-right: 4%;
-        }
-        @media all and (min-width: 992px){
-          margin-right: 2%;
-        }
-        .iconText{
-          color: white;
-        }
-        .inButtonText{
-          color:black;
-        }
-        .flagIcon{
-          margin-left: 20%;
-          img{
-            width: 25px;
-            height: 15px;
-          }
-        }
-        .dropdown-toggle::after{
-          display: none;
-        }
+      }
+      .dropdown-toggle::after {
+        display: none;
+      }
     }
-    .icon{
-      &:last-of-type{
+    .icon {
+      &:last-of-type {
         margin-right: 11%;
       }
-      &:nth-of-type(3){
+      &:nth-of-type(3) {
         margin-left: 2%;
         margin-right: 2%;
-        @media all and (max-width:575px){
-          margin-left: 7%;
-        margin-right: 7%;
-        }
-        @media all and (min-width: 576px) { 
+        @media all and (max-width: 575px) {
           margin-left: 7%;
           margin-right: 7%;
         }
-        @media all and (min-width: 768px){
+        @media all and (min-width: 576px) {
+          margin-left: 7%;
+          margin-right: 7%;
+        }
+        @media all and (min-width: 768px) {
           margin-left: 4%;
           margin-right: 4%;
         }
-        @media all and (min-width: 992px){
+        @media all and (min-width: 992px) {
           margin-left: 2%;
           margin-right: 2%;
         }
       }
-      a{
-        color:white; 
+      a {
+        color: white;
         cursor: pointer;
       }
     }
   }
   // NavBar edeting
-  .navbar-editing{
+  .navbar-editing {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0px;
     z-index: 1;
     font-weight: 700;
-    background-color: black!important;
-    .navbar-toggler{
-      background-color: white!important;
-  }
-    .navbar-collapse{
+    background-color: black !important;
+    .navbar-toggler {
+      background-color: white !important;
+    }
+    .navbar-collapse {
       justify-content: space-around;
-      .phoneNumber{
-        a{
-          color:white;
+      .phoneNumber {
+        a {
+          color: white;
         }
       }
-      .nav-link{
+      .nav-link {
         margin-right: 1px;
         font-size: 13px;
         letter-spacing: 3px;
-        color:white!important;
+        color: white !important;
         transition-duration: 1.3s;
-        &:hover{
-          color:black!important;
+        &:hover {
+          color: black !important;
           background: white;
           border-radius: 10px;
           transition-duration: 1.3s;
         }
       }
-
     }
   }
   //Image-Logo on main oage
-  .header__image{
-    img{
+  .header__image {
+    img {
       height: 25%;
       width: 25%;
-      @media all and (max-width:575px){
+      @media all and (max-width: 575px) {
         height: 60%;
         width: 60%;
       }
-      @media all and (min-width: 576px) { 
+      @media all and (min-width: 576px) {
         height: 60%;
         width: 60%;
       }
-      @media all and (min-width: 768px){
+      @media all and (min-width: 768px) {
         height: 45%;
         width: 45%;
       }
-      @media all and (min-width: 992px){
-      height: 25%;
-      width: 25%;
+      @media all and (min-width: 992px) {
+        height: 25%;
+        width: 25%;
       }
     }
-
   }
-  .show-down{
-    a{
-      color:white;
+  .show-down {
+    a {
+      color: white;
     }
     font-size: 2em;
     width: 100%;
     display: flex;
     justify-content: center;
-
   }
 }

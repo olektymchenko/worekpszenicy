@@ -38,6 +38,9 @@ main .row {
 
 main .row .col {
     padding: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 @media all and (max-width: 575px) {
@@ -89,25 +92,26 @@ main .row .col {
 }
 
 @media all and (max-width: 575px) {
-    main .row .col h3 {
-        font-size: 15px;
-    }
-}
-
-@media all and (min-width: 576px) {
-    main .row .col h3 {
+    main .row .col h2 {
         font-size: 20px;
     }
 }
 
-@media all and (min-width: 768px) {
-    main .row .col h3 {
+@media all and (min-width: 576px) {
+    main .row .col h2 {
         font-size: 25px;
+        text-align: center;
+    }
+}
+
+@media all and (min-width: 768px) {
+    main .row .col h2 {
+        font-size: 30px;
     }
 }
 
 @media all and (min-width: 992px) {
-    main .row .col h3 {
+    main .row .col h2 {
         font-size: 35px;
     }
 }

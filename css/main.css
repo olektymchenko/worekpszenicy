@@ -190,6 +190,11 @@ main {
     padding-top: 50px;
 }
 
+main span {
+    display: block;
+    margin-bottom: 16px;
+}
+
 main .colWithImage {
     padding: 0;
 }
@@ -198,6 +203,42 @@ main .subpage1 {
     padding-top: 50px;
     background-color: white;
     min-height: 100vh;
+}
+
+main .subpage1 .main__left_text {
+    padding: 0 20px;
+}
+
+main .subpage1 .main__left_text h1 {
+    text-align: center;
+}
+
+@media all and (max-width: 575px) {
+    main .subpage1 .main__left_text h1 {
+        font-size: 25px;
+    }
+}
+
+@media all and (min-width: 576px) {
+    main .subpage1 .main__left_text h1 {
+        font-size: 27px;
+    }
+}
+
+@media all and (min-width: 768px) {
+    main .subpage1 .main__left_text h1 {
+        font-size: 28px;
+    }
+}
+
+@media all and (min-width: 992px) {
+    main .subpage1 .main__left_text h1 {
+        font-size: 30px;
+    }
+}
+
+main .subpage1 .main__left_text p {
+    font-weight: normal;
 }
 
 @media all and (max-width: 575px) {
@@ -224,60 +265,31 @@ main .subpage1 {
     }
 }
 
-main .subpage1 .main__left_text #text-main-first {
-    font-size: 50px;
+main .subpage1 .main__left_text h2 {
+    text-align: center;
 }
 
 @media all and (max-width: 575px) {
-    main .subpage1 .main__left_text #text-main-first {
-        font-size: 20px;
-    }
-}
-
-@media all and (min-width: 576px) {
-    main .subpage1 .main__left_text #text-main-first {
+    main .subpage1 .main__left_text h2 {
         font-size: 25px;
     }
 }
 
+@media all and (min-width: 576px) {
+    main .subpage1 .main__left_text h2 {
+        font-size: 27px;
+    }
+}
+
 @media all and (min-width: 768px) {
-    main .subpage1 .main__left_text #text-main-first {
+    main .subpage1 .main__left_text h2 {
+        font-size: 28px;
+    }
+}
+
+@media all and (min-width: 992px) {
+    main .subpage1 .main__left_text h2 {
         font-size: 30px;
-    }
-}
-
-@media all and (min-width: 992px) {
-    main .subpage1 .main__left_text #text-main-first {
-        font-size: 45px;
-    }
-}
-
-main .subpage1 .main__left_text #text-main-second {
-    font-size: 40px;
-    color: red;
-}
-
-@media all and (max-width: 575px) {
-    main .subpage1 .main__left_text #text-main-second {
-        font-size: 15px;
-    }
-}
-
-@media all and (min-width: 576px) {
-    main .subpage1 .main__left_text #text-main-second {
-        font-size: 20px;
-    }
-}
-
-@media all and (min-width: 768px) {
-    main .subpage1 .main__left_text #text-main-second {
-        font-size: 25px;
-    }
-}
-
-@media all and (min-width: 992px) {
-    main .subpage1 .main__left_text #text-main-second {
-        font-size: 35px;
     }
 }
 
@@ -305,6 +317,14 @@ main .subpage2 .main__second_left-image img {
     height: 100%;
 }
 
+main .subpage2 .main__second-right-text {
+    padding: 0 20px;
+}
+
+main .subpage2 .main__second-right-text p {
+    font-weight: normal;
+}
+
 @media all and (max-width: 575px) {
     main .subpage2 .main__second-right-text p {
         font-size: 12px;
@@ -329,60 +349,31 @@ main .subpage2 .main__second_left-image img {
     }
 }
 
-main .subpage2 .main__second-right-text h1 {
-    font-size: 50px;
-}
-
-@media all and (max-width: 575px) {
-    main .subpage2 .main__second-right-text h1 {
-        font-size: 20px;
-    }
-}
-
-@media all and (min-width: 576px) {
-    main .subpage2 .main__second-right-text h1 {
-        font-size: 25px;
-    }
-}
-
-@media all and (min-width: 768px) {
-    main .subpage2 .main__second-right-text h1 {
-        font-size: 30px;
-    }
-}
-
-@media all and (min-width: 992px) {
-    main .subpage2 .main__second-right-text h1 {
-        font-size: 45px;
-    }
-}
-
 main .subpage2 .main__second-right-text h2 {
-    font-size: 40px;
-    color: red;
+    text-align: center;
 }
 
 @media all and (max-width: 575px) {
-    main .subpage2 .main__second-right-text h2 {
-        font-size: 15px;
-    }
-}
-
-@media all and (min-width: 576px) {
-    main .subpage2 .main__second-right-text h2 {
-        font-size: 20px;
-    }
-}
-
-@media all and (min-width: 768px) {
     main .subpage2 .main__second-right-text h2 {
         font-size: 25px;
     }
 }
 
+@media all and (min-width: 576px) {
+    main .subpage2 .main__second-right-text h2 {
+        font-size: 27px;
+    }
+}
+
+@media all and (min-width: 768px) {
+    main .subpage2 .main__second-right-text h2 {
+        font-size: 28px;
+    }
+}
+
 @media all and (min-width: 992px) {
     main .subpage2 .main__second-right-text h2 {
-        font-size: 35px;
+        font-size: 30px;
     }
 }
 
@@ -411,6 +402,7 @@ main .carouselElement {
 .footer .container .row {
     min-height: 40vh;
     width: 100%;
+    padding-top: 75px;
 }
 
 @media all and (max-width: 575px) {
@@ -427,7 +419,7 @@ main .carouselElement {
 
 @media all and (min-width: 768px) {
     .footer .container .row {
-        justify-content: space-between;
+        justify-content: flex-start;
     }
 }
 
@@ -438,7 +430,7 @@ main .carouselElement {
 }
 
 .footer .container .row .footer__text {
-    width: 63%;
+    width: 80%;
 }
 
 .footer .container .row .footer__text hr {
@@ -473,7 +465,7 @@ main .carouselElement {
 @media all and (min-width: 992px) {
     .footer .container .row .footer__text {
         align-self: flex-end;
-        width: 63%;
+        width: 80%;
     }
 }
 
